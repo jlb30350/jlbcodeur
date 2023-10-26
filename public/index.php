@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Portfolio de jlbo</title>
+    <title>jlbo</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
 
         <nav id="myNavbar" class="navbar navbar-expand-lg navbar-dark  sticky-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Le 30/07/2023</a>
+                <a class="navbar-brand" href="#">Le 27/10/2023</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -73,7 +73,7 @@
                 <img src="images/me.jpg" class="rounded-circle">
             </div>
             <div class="heading">
-                <h6>Bienvenue sur mon Portfolio en ligne "Responsive" WWW.JLBCODEUR.COM </h2>
+                <h6>Bienvenue sur mon Portfolio en ligne "Responsive" http://jlbcodeur.lescigales.org/ </h2>
                     <h6>Chimiste et Developpeur Web en devenir</h2>
                         <a href="images/cv.PNG" target="_blank" class="button1">Télécharger mon CV (en cours de
                             finalisation mais promis je m'en occupe vite)</a>
