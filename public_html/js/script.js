@@ -12,7 +12,7 @@ $(function () {
     e.preventDefault();
     $(".comments").empty();
     var postdata = $("#contact-form").serialize();
-
+    console.log(postdata)
     $.ajax({
       type: "POST",
       url: "php/contact.php",
