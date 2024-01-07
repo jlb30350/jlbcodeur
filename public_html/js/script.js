@@ -15,7 +15,7 @@ $(function () {
     console.log(postdata)
     $.ajax({
       type: "POST",
-      url: "php/contact.php",
+      url: "contact.php",
       data: postdata,
       postdata: "firstname=&name=&email=&phone=&message=",
       dataType: "json",
