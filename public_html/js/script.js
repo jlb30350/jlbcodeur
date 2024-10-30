@@ -3,7 +3,7 @@ $(function () {
     event.preventDefault();
     var hash = this.hash;
 
-    $("body").animate({ scrollTop: $(hash).offset().top }, 900, function () {
+    $("body").animate({ scrollTop: $(hash).offset().top }, 1, function () {
       window.location.hash = hash;
     })
   });
