@@ -211,7 +211,7 @@ section .heading h2 {
   width: 90%;
   float: right;
   margin-right: 40px;
-  border-bottom: 1px solid #d4d4d4;
+  bottom: 1px solid #d4d4d4;
   border-radius: 7px;
   padding: 20px 25px;
   position: relative;
@@ -360,7 +360,6 @@ h2 {
   background: #d82c2e;
   padding: 40px;
   border-radius: 10px;
-  color: white;
 }
 
 .form-control {
@@ -371,8 +370,8 @@ h2 {
 .comments {
   font-style: italic;
   font-size: 18px;
-  
-  height: 10px;
+  color: white;
+  height: 25px;
 }
 
 #contact-form input[type="submit"] {
@@ -391,6 +390,7 @@ h2 {
 
 .button1 {
   font-weight: bold;
+  color: white;
   text-transform: uppercase;
   border: 1px solid white;
   padding: 18px 50px;
@@ -405,8 +405,6 @@ h2 {
 .button1:hover {
   background: #333;
   border-color: #ffa500;
-  color: white;
-
 }
 
 
@@ -625,7 +623,7 @@ section .heading h2 {
     width: 90%;
     float: right;
     margin-right: 40px;
-    border-bottom: 1px solid #d4d4d4;
+    bottom: 1px solid #d4d4d4;
     border-radius: 7px;
     padding: 20px 25px;
     position: relative;
@@ -744,5 +742,79 @@ footer span:hover {
 footer h5{
     color: white;
     font-weight: normal;
+}
+
+
+
+.carousel-indicators button {
+    position: relative !important;
+    flex: 0 1 auto !important;
+    width: 10px !important; /* Largeur des boutons */
+    height: 10px !important; /* Hauteur des boutons */
+    margin-right: 3px !important;
+    margin-left: 3px !important;
+    border: none !important;
+    border-radius: 50% !important; /* Pour obtenir des boutons ronds */
+    background-color: rgba(255, 255, 255, 0.5) !important; /* Couleur initiale des boutons */
+    transition: background-color 0.6s ease !important; /* Transition fluide du changement de couleur */
+}
+
+.carousel-indicators button.active {
+    background-color: #d82c2e !important; /* Couleur du bouton actif */
+}
+
+.carousel-indicators button:hover {
+    background-color: #ffffff !important; /* Couleur au survol */
+}
+
+
+
+.carousel-indicators {
+    position: absolute !important;
+    bottom: 10px !important; /* Placer les indicateurs en bas */
+    z-index: 15 !important;
+    display: flex !important;
+    justify-content: center !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
+}
+
+.carousel-inner h3, 
+.carousel-inner h4 {
+    margin-bottom: 100px !important; /* Espace suffisant pour éviter le chevauchement */
+}
+
+
+
+.carousel-inner h3, 
+.carousel-inner h4 {
+    margin-bottom: 100px !important; /* Crée un espace suffisant pour éviter le chevauchement */
+}
+
+
+
+
+#recommendation .heading {
+    margin-bottom: 20px; /* Espace sous le titre "Recommandations" */
+}
+#recommendation .row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#recommendation .col-md-3 {
+    text-align: center;
+}
+
+#recommendation {
+    padding-top: 100px; /* Ajustez la valeur selon la hauteur de votre navbar */
+}
+
+.linkedin-icon {
+    width: 80px; /* Ajustez la taille ici */
+    display: block;
+    margin: 0 auto; /* Centre l'image */
 }
 
